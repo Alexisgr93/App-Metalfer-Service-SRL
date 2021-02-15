@@ -1,0 +1,201 @@
+/*comentar en css*/
+html{
+	/*definir el tamaño del html total*/
+	width: 100%;
+	height: 100%;
+	/*color de fuente*/
+	color: black;
+	/*reconocimiento de letra*/
+	font-family: arial, sans serif;
+	/*tamaño de letra*/
+	/*font-size: 50px;*/
+	/*background-image: url(../backround/background-logo.jpg);*/
+	top: 100%;
+}
+
+body{
+	/*margen de borde del cuerpo*/
+	margin:0px;
+	width:100%;
+	height:100%;
+}
+
+header{
+	/*tamaño que va a ocupar el header o banner con el logo*/
+	width: 100%;
+	height: 15%;
+}
+
+#backgroung-logo{
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 100%;
+	height: 100%;
+}
+
+#logo{
+	/*tamaño del logo ancho y largo*/
+	width: 17%;
+	height: 12%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 20%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top: 1.5%;
+	position: absolute;
+	cursor: pointer;
+}
+#nombre{
+	/*tamaño del logo ancho y largo*/
+	width: 40%;
+	height: 8.5%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 45%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top: 3.5%;
+	position: absolute;
+	cursor: pointer;
+}
+
+
+
+section{/*
+	/*fondo de pantalla del section*/
+	background-image:url(../backround/backround.jpg);
+	/*tamaño del logo ancho y largo*/
+	height:75%;
+	width:100%;
+	position:relative;
+}
+
+.backgroung{
+	/*ocupa el tamaño total del seccion*/
+	display:table;
+	width:100%;
+	height:100%;
+}
+
+.background1{
+	/*tamaño del boton ancho y largo*/
+	width:94%;
+	height:94%;
+	/*fondo del boton*/
+	background-color:rgb(83,0,0);
+	/*boton centrado en los laterales*/
+	margin-left:3%;
+	/*separacion entre botones*/
+	margin-top:2%;
+	/*redondeado en borde del boton*/
+	border-radius:10px;
+	/*cuando el cursor se posiciona en el boton se cambia a una manito*/
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	position:absolute;	
+}
+
+.backgroung2{
+	/*tamaño del boton ancho y largo*/
+	width:94%;
+	height:94%;
+	/*fondo del boton*/
+	background-color:rgb(200,200,200);
+	/*boton centrado en los laterales*/
+	margin-left:3%;
+	/*separacion entre botones*/
+	margin-top:2.5%;
+	/*redondeado en borde del boton*/
+	border-radius:10px;
+	/*cuando el cursor se posiciona en el boton se cambia a una manito*/
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	position:absolute;
+	display:block;	
+}
+
+div.scroll {
+    width: 98%;
+    height: 97%;
+    overflow-y: scroll;
+	position:absolute;
+	top:2%;
+	display:block;
+}
+
+h1 {
+	margin-top:5%;
+	margin-left:10%;
+	position:relative;
+}
+h4 {
+	columns: 90%;
+	margin-left:10%;
+	position:relative;
+	font-size:15px;
+}
+
+h6 {
+	columns: 90%;
+	margin-left:10%;
+	position:relative;
+	font-size:15px;
+}
+
+h3 {
+    columns: 90%;
+	margin-left:20%;
+	position:relative;
+}
+
+h2 {
+    columns: 90%;
+	margin-left:10%;
+	margin-right:7%;
+	position:relative;
+}
+
+/* SI TIENE UN FONDO DE PARNTALLA BLANCO SE NOTA
+.button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+*/
+
+
+iframe {
+	left:5%;
+	display:block;
+	position:relative;
+}
+
+
+footer
+{
+	width: 100%;
+	height: 10%;
+}
+
+#backgroung-footer{
+	background-image:url(../backround/background-logo.jpg);
+	/*background-image:url(../backround/background-logo.jpg);*/
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	position:absolute;
+	width: 100%;
+	height: 10%;
+	
+}
+
+#boton-back{
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 12%;
+	height: 8%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 44.5%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top: 91%;
+	position: absolute;
+	cursor: pointer;
+
+}

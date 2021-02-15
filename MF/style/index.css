@@ -1,0 +1,209 @@
+/*comentar en css*/
+html{
+	/*definir el tamaño del html total*/
+	width: 100%;
+	height: 100%;
+	/*color de fuente*/
+	color: black;
+	/*reconocimiento de letra*/
+	font-family: arial, sans serif;
+	/*tamaño de letra*/
+	font-size: 20px;
+	/*background-image: url(../backround/background-logo.jpg);*/
+	top: 100%;
+}
+
+body{
+	/*margen de borde del cuerpo*/
+	margin:0px;
+	width:100%;
+	height:100%;
+}
+
+header{
+	/*tamaño que va a ocupar el header o banner con el logo*/
+	width: 100%;
+	height: 15%;
+}
+
+#backgroung-logo{
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 100%;
+	height: 100%;
+}
+
+#logo{
+	/*tamaño del logo ancho y largo*/
+	width: 17%;
+	height: 12%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 20%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top: 1.5%;
+	position: absolute;
+	cursor: pointer;
+}
+#nombre{
+	/*tamaño del logo ancho y largo*/
+	width: 40%;
+	height: 8.5%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 45%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top: 3.5%;
+	position: absolute;
+	cursor: pointer;
+}
+
+section{
+		/*fondo de pantalla del section*/
+		background-image:url(../backround/backround.jpg);
+		/*tamaño del logo ancho y largo*/
+		height:75%;
+		width:100%;
+		position:relative;
+}
+
+.backgroung{
+	/*ocupa el tamaño total del seccion*/
+		display:table;
+		width:100%;
+		height:100%;
+}
+
+#spoiler{
+	display: none;
+	width:100%;
+	height:100%;
+	position:relative;
+	
+}
+
+.scroll {
+
+    width:100%;
+    height: 90%;
+    overflow: scroll;
+	overflow-x: hidden;
+}
+
+
+input[id^="spoiler"] + label {/*boton*/
+	  position:absolute;
+	 /* display:block;*/
+	  top:-1%;
+	  width: 30%;
+	  margin: 25%;
+	  padding: 3% 10%;
+	  background-color:rgb(85,0,0);
+	  color: #fff;
+	  margin-left:center;
+	  text-align: 15%;
+	  /*text-align: center;*/
+	  font-size: 24px;
+	  border-radius: 8px;
+	  cursor: pointer;
+	  transition: all .6s;
+}
+
+input[id^="spoiler"]:checked + label {
+	  color: #333;
+	  background: #ccc;
+}
+
+.formulario {
+  margin: auto;
+  width: 65%;
+ }
+ 
+.formulario input {
+margin: 5px 0 10px 0;
+  display: block;
+ }
+ 
+ 
+ 
+input[id^="spoiler"] ~ .spoiler {/*centrado de texto*/
+	  position:absolute;
+	  width: center;
+	  height: 0%;
+	  top:-22%;
+	  /*overflow: hidden;*/
+	  opacity: 0;
+	  margin: 0px auto 0; 
+	  padding: 6%; 
+	  background: #eee;
+	  border: 1px solid #ccc;
+	  border-radius: 8px;
+	  transition: all .6s;
+	  /*text-align:center;*/
+}
+input[id^="spoiler"]:checked + label + .spoiler{/* centrado de fondo*/
+	  position:absolute;
+	  margin-left:9%;
+	  height: 85%;
+	  width:79%;
+	  top:5%;
+	  opacity: 1;
+	  padding: 1%;
+	  z-index:+1;
+	  
+}
+
+label .hombre {
+	background-color:#0C6;
+	}
+
+
+/*input[type='radio']{
+	display:block;
+	margin-left: -11%;
+	
+
+}*/
+
+.button{
+	
+	  position:absolute;
+	  top:35%;
+	  width: 50%;
+	  margin: 25%;
+	  padding: 3%;
+	  background-color:rgb(85,0,0); 
+	  color: #fff;	  
+	  font-size: 24px;
+	  border-radius: 8px;
+	  border: 0px solid #ccc;
+	  cursor: pointer;
+	  transition: all .6s;
+}
+
+
+
+footer
+{
+	width: 100%;
+	height: 10%;
+}
+
+#backgroung-footer{
+	background-image: url(../backround/background-logo.jpg);
+	/*background-image:url(../backround/background-logo.jpg);*/
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	position:absolute;
+	width: 100%;
+	height: 10%;
+	
+}
+
+#boton-back{
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 12%;
+	height: 8%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 44.5%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top:91%;
+	position: absolute;
+	cursor: pointer;
+}
